@@ -2,4 +2,93 @@
 
 body{
     font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+}
+
+.header , .section-one, .footer{
+    background-color: #1f2937;
+    display: flex;
+}
+.header{
+    justify-content: space-between;
+    padding: 15px 100px;
+    align-items: center;
+}
+.header .left-links{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.header ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.content{
+    flex: 1;
+}
+.header a{
+    text-decoration: none;
+    color:#f9faf8
+}
+
+.content .section-one .left-section , .content .section-one .right-section{
+    flex: 1;
+}
+
+.content .section-one .left-section h1{
+    margin: 0;
+    font-size: 48px;
+    font-weight: bolder;
+
+}
+
+.content .section-one{
+    padding: 80px 100px;
+    display: flex;
+    gap: 60px;
+    color:#f9faf8;
+}
+
+.content .section-one p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.section-one .left-section button{
+    background-color: #3882F6;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 8px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.content .section-one .right-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .section-one .right-section div{
+    background-color: grey;
+    color: #E5E7EB;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+    height: 250px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
