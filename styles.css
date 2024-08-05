@@ -7,12 +7,16 @@ body{
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    width: 100vh;
+    width: 100vw;
 }
 
 .header , .section-one, .footer{
     background-color: #1f2937;
     display: flex;
+}
+
+.header, .content, .footer{
+    flex: 1;
 }
 .header{
     justify-content: space-between;
@@ -58,11 +62,14 @@ body{
     display: flex;
     gap: 60px;
     color:#f9faf8;
+    flex-wrap: wrap;
 }
 
 .content .section-one p{
     font-size: 18px;
     color: #E5E7EB;
+    flex-wrap: wrap;
+
 }
 
 .section-one .left-section button{
@@ -78,6 +85,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 1;
 }
 
 .content .section-one .right-section div{
@@ -91,4 +99,84 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 1;
+}
+
+.content .section-one .right-section div p{
+    text-wrap: wrap;
+}
+
+.section-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-two h2{
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.section-two .list-of-empty-cards{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 15px 100px;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.card-box{
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 170px;
+}
+
+.empty-card{
+    flex: auto;
+    width: 170px;
+    height: 170px;
+    background-color:transparent;
+    border-radius: 22px;
+    border:  5px #3882F6;
+    border-style: solid;
+}
+
+
+.card-box p{
+    text-align: center;
+    text-wrap: wrap;
+    color: #1F2937;
+}
+
+.section-three{
+
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    height: 300px;
+    justify-content: center;
+    align-content: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 1;
+    color: #1F2937;
+    padding: 100px;
+}
+
+.section-three p{
+    font-weight:100;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 0;
+}
+
+#Thor{
+    margin-top:20px;
+    justify-content: flex-end;
 }
