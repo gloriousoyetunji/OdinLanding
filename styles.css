@@ -180,3 +180,38 @@ body{
     margin-top:20px;
     justify-content: flex-end;
 }
+
+.section-four{
+    box-sizing: border-box;
+    display: flex;
+    background-color: #3882F6;
+    height: 150px;
+    margin: 75px 100px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 80px;
+    border-radius: 15px;
+    color: #f9faf8;
+}
+ 
+.section-four p{
+    margin: 0;
+    font-weight: lighter;
+
+}
+
+#call-to-action{
+    font-weight: 900;
+    font-size: 22px;
+}
+
+.section-four button{
+    color: #f9faf8;
+    background-color: transparent;
+    border-style: solid;
+    border-color: #f9faf8;
+    border-radius: 5px;
+    padding: 5px 30px;
+}
+
+
