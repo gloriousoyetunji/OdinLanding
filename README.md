@@ -10,4 +10,4 @@ This landing page utilizes the basic HTML & CSS techniques taught in the the beg
 + CSS
 
 ### How to use
-To see the live preview of this project, visit this link [Test Link](https://pages.github.com/).
+To see the live preview of this project, visit this link [Test Link](https://gloriousoyetunji.github.io/OdinLanding/).
