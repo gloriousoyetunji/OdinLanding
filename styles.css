@@ -214,4 +214,7 @@ body{
     padding: 5px 30px;
 }
 
-
+#kishy-link{
+    text-decoration: none;
+    color: white;
+}
